@@ -1,0 +1,191 @@
+* {
+	margin: 0;
+}
+body{
+
+}
+html {
+	font-size: 10px;
+	font-family: 'Montserrat', sans-serif;
+}
+a {
+	text-decoration: none;
+}
+.kont {
+	min-height: 700px;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+#hero {
+	background-image: url(../Images/work.jpg);
+
+	background-size: cover;
+	background-position: top center;
+	position: relative;
+}
+#hero h1{
+
+
+	display: block;
+	font-size: 4rem;
+	position: relative;
+	color: transparent;
+	animation: text_reveal .5s ease forwards;
+	animation-delay: 0.5s;
+}
+#hero h1:nth-child(1){
+	animation-delay: 1.5s;
+}
+#hero h1 span {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 0;
+	background-color: white;
+	animation: text_reveal_box 1s ease;
+	animation-delay: 1s;
+}
+.cta{
+
+	display: inline-block;
+	padding: 12px 35px;
+	color: white;
+	border: 2px solid white;
+	font-size: 2rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 30px;
+}
+
+.cta:hover{
+	color: black;
+	background-color: white;
+}
+
+body {
+    background-color: white;
+}
+h1 {
+  text-align: center;
+}
+
+h5 {
+	font-size: 30px;
+}
+@keyframes text_reveal_box{
+	50%{
+		width: 100%;
+		left: 0;
+	}
+	100%{
+		width: 0;
+		left: 100%;
+	}
+}
+@keyframes text_reveal{
+	100%{
+		color: white;
+	}
+}
+
+p {
+	font-size: 1.8rem;
+	margin: 5rem 0;
+	padding: 1rem;
+	text-align: center;
+	width: 50%;
+}
+
+.fs45{
+	width: 100%;
+	margin-top: 5rem;
+	font-size: 2.8rem;
+	margin-bottom: 10rem;
+
+}
+.fs45 h1{
+	margin-bottom: 20px;
+}
+.books {
+	padding: 20px;
+}
+.img {
+	float: right;
+	padding-right: 30px;
+}
+.top {
+  width: 100%;
+	top:-5%;
+	left: -5%;
+  background-color: black;
+	transform: rotate(4deg);
+	padding: 20px;
+  border-radius: 50px;
+}
+#top3 {
+  padding: 30px;
+  text-align: center;
+  color:white;
+	transform: rotate(-4deg);
+}
+#top3 h1,h2{
+	color:white;
+}
+.scale {
+	transition: 0.4s; /* Время эффекта */
+ }
+ .scale:hover {
+	transform: scale(1.15) rotate(4deg); /* Увеличиваем масштаб */
+ }
+ .card{
+	 text-align: center;
+ }
+ .card-text {
+	 width:100%;
+ }
+.card-footer {
+	float: bottom;
+}
+#news h1 {
+	font-size: 5rem;
+	padding:20px;
+}
+#news h5 {
+	color: black;
+	font-size: 2.3rem;
+}
+#news p {
+	color: black;
+}
+#news{
+	color: black;
+	margin-top: 100px;
+}
+.hov {
+	transition: 0.4s; /* Время эффекта */
+ }
+ .hov:hover {
+  transform: scale(1.05); /* Увеличиваем масштаб */
+	background-color:rgba(0, 0, 0, 0.2);
+	color: white;
+ box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.3), 0 1px 0px rgba(0, 0, 0, 0.1);
+ }
+ .card-text:hover {
+ 	color:white
+ }
+ #last {
+	 padding-top: 50px;
+
+ }
+ .just {
+	 padding: 30px;
+	 border: 4px solid black;
+     text-align: center;
+		 border-radius: 30px;
+ }
+.feature-box {
+	align-items: center;
+}

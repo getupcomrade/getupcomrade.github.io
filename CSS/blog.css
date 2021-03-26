@@ -1,0 +1,111 @@
+@import 'https://fonts.googleapis.com/css?family=Montserrat:300, 400, 700&display=swap';
+#hero .cta{
+	display: inline-block;
+	padding: 10px 30px;
+	color: black;
+	background-color: transparent;
+	border: 2px solid black;
+	font-size: 1rem;
+	text-transform: uppercase;
+	letter-spacing: .1rem;
+	margin-top: 10px;
+	transition: .3s ease background-color,color;
+}
+#hero .cta:hover{
+	color: white;
+	background-color: black;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+	font-size: 1rem;
+	line-height: 1.6;
+	font-weight: 400;
+  background-color: #f7f7f7;
+  color: #333;
+}
+.blog{
+	margin: 15px 0;
+}
+p{
+	text-align: left;
+	opacity: 0.7;
+	line-height: 1.6;
+}
+.heading{
+	padding: 20px 0;
+}
+.heading h2{
+	font-size: 2rem;
+}
+.blog img{
+	width: 100%;
+	height: auto;
+}
+
+.blog-inf{
+	background-color: #FFE4B5;
+	padding: 20px;
+}
+
+.blox-inf h3{
+	font-size: 1.5rem;
+	margin: 10px 0;
+	text-transform: capitalize;
+}
+.blog-inf span{
+	display: block;
+	margin:20px 0;
+	color: #343a40;
+	text-transform: capitalize;
+	font-weight: 600;
+}
+
+main{
+	margin: 5vh 15%;
+}
+h1{
+	font-size: 40px;
+	font-weight: 400;
+	text-align: center;
+}
+img{
+	width:50%;
+	height:auto;
+}
+label{
+		position: absolute;
+		width: 45px;
+		height: 22px;
+		right: 20px;
+		top: 20px;
+		border: 2px solid;
+		border-radius: 20px;
+}
+label:before{
+		position: absolute;
+		content: '';
+		width:18px;
+		height: 18px;
+		left: 1px;
+		top: -0.5px;
+		border-radius: 50%;
+		background: #000;
+		cursor: pointer;
+		transition: 0.4s;
+}
+label.active:before{
+		left: 24px;
+		background: #fff;
+}
+body.night{
+		background: #000;
+		color: #fff;
+}
+
+@media screen and (min-width:900px) {
+	.respon{
+		display: flex;
+	}
+}

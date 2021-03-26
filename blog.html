@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="https://kit.fontawesome.com/c98d165499.js" crossorigin="anonymous"></script>
+	<link rel="shortcut icon" href="images/book.ico" type="image/png">
+	<title>Blog</title>
+	<link rel="stylesheet" href="CSS/blog.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+	<meta name="viewport"
+   content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	 <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+<body>
+
+
+
+
+
+<section id="hero">
+	<div class="hero container">
+		<div>
+			<a href="index.html" type="button" class="cta">Главная Страница</a>
+		</div>
+	</div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+				<div class="heading">
+				<h2>Недавние <strong>посты</strong></h2>
+				<p>
+					Прочитай,будет полезно!
+				</p>
+				</div>
+			</div>
+		</div>
+
+
+
+		<div class="row">
+			<div class="col-lg-4">
+				<div class="blog">
+						<img src ="Images/calorie.jpg">
+					<div class="blog-inf">
+						<h4>Сжигается ли больше калорий в холод?</h4>
+						<span>18 Января</span>
+						<p>Стоит ли переносить тренировки на улицу,чтобы быстрее похудеть?</p><br>
+						<a href="">Далее...</a>
+					</div>
+				</div>
+			</div>
+
+
+
+               <div class="col-lg-4">
+				<div class="blog">
+						<img src ="Images/reading.jpg">
+					<div class="blog-inf">
+						<h4>Главные правила скорочтения</h4>
+						<span>15 Января</span>
+						<p>Прежде чем приступать к освоению навыков...</p><br>
+						<a href="">Далее...</a>
+					</div>
+				</div>
+			</div>
+
+
+
+
+
+
+			<div class="col-lg-4">
+				<div class="blog">
+						<img src ="Images/trainings.jpg">
+					<div class="blog-inf">
+						<h4>Как тренируется и питается Джейсон.С.</h4>
+						<span>24 Ноября</span>
+						<p>Даже сегодня 53-летний актер посещает зал...</p><br>
+						<a href="">Далее...</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<header>
+    <label  id="dark-change"></label>
+  </header>
+  <main>
+      <div class="respon">
+      </div>
+  </main>
+
+
+
+
+
+
+
+	 <script>
+			var content = document.getElementsByTagName('body')[0];
+			var darkMode = document.getElementById('dark-change');
+			darkMode.addEventListener('click', function(){
+					darkMode.classList.toggle('active');
+					content.classList.toggle('night');
+			})
+	</script>
+
+
+
+
+
+
+
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+
+  <footer class="page-footer">
+      <div class="container">
+          <div class="row">
+              <div class="col l6 s12">
+                  <h5 class="white-text">BBLOG.kz</h5>
+                  <p class="grey-text text-lighten-4">Сайт по саморазвитию. Будь лучшией версией себя! </p>
+              </div>
+
+
+
+
+              <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Информация</h5>
+                  <ul>
+                      <li><a class="grey-text text-lighten-3" href="#!">Последние новости</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Информация о нас</a></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Путеводитель по сайту</a></li>
+                  </ul>
+              </div>
+
+
+
+
+              <div class="col l4 offset-l2 s12">
+                  <h5 class="white-text">Мы в соц.сетях!</h5>
+                  <ul>
+                      <li><a class="grey-text text-lighten-3" href="https://www.tiktok.com/@1586lotos?lang=ru-RU" target="_blank">TikTok </a><i class="fab fa-tiktok"></i></li>
+                      <li><a class="grey-text text-lighten-3" href="#!">Google </a><i class="fab fa-google" target="_blank"></i></li>
+                      <li><a class="grey-text text-lighten-3" href="https://www.instagram.com/_balguzhinov_/" target="_blank">Instagram </a><i class="fab fa-instagram"></i></li>
+                  </ul>
+              </div>
+          </div>
+      </div>
+      <div class="footer-copyright">
+          <div class="container"> © 2021 Copyright BBLOG.kz <a class="grey-text text-lighten-4 right" href="#!">House of cool blogs!</a> </div>
+      </div>
+  </footer>
+
+
+
+</body>
+</html>
