@@ -2,7 +2,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
-
+html{
+    scroll-padding-top: 5.1rem;
+}
 
 nav {
     background-color: black;
