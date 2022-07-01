@@ -71,7 +71,7 @@ section{
 }
 .title1 p{
     color: white;
-    font-weight: 200;
+    font-weight: 300;
     font-size: 20px;
     padding-left: 10vw;
     width: 65%;
@@ -109,12 +109,12 @@ border: 5px solid #FFFF00;
     .title1 h1{
         padding-left: 5vw;
         font-size:35px;
-        padding-top: 300px;
+        padding-top: 500px;
     }
     .title1 p{
         padding-left: 5vw;
     width: 73%;
-        font-size:17px;}
+        font-size:16px;}
     .title1 img{
   height: 40px;
 
@@ -264,7 +264,7 @@ margin: auto;
 .title21 p{
     font-size: 18px;
     font-weight: 300;
-    
+    width: 73%;
     margin: auto;
 }
 .title21 img{
@@ -274,10 +274,20 @@ margin: auto;
 .title21 .row{
 }
 @media (max-width:750px) {
-    .title21{
-        
+    .title21 p{
+        font-size: 14px;
+        padding-bottom: 50px;
+        width: 90%;
     }
-    
+    .title21 h1{
+        font-size: 30px;
+    }
+    .title21 h3{
+        font-size: 24px;
+        line-height: 1.17;
+        width: 80%;
+        padding-bottom: 20px;
+    }
 }
 
 
@@ -285,8 +295,8 @@ margin: auto;
 .title23{
     width: 70%;
     text-align: center;
-    padding: 60px;
-    margin: auto;
+        padding: 60px;
+        margin: auto;
 }
 .title23 h1{
     font-size: 36px;
@@ -300,10 +310,30 @@ margin: auto;
     margin: auto;
     padding-bottom: 30px;
 }
-.title23 img{
-    padding: 60px;
-}
 
+.title23 img{
+    padding: 50px;
+}
+@media (max-width:650px) {
+    .title23{
+        padding: 0px;
+        margin-top: 30px;
+    }
+    .title23 p{
+        font-size: 18px;
+        width: 100%;
+    }
+    
+    .title23 h1{
+        font-size: 30px;
+        width: 100%;
+        padding-bottom: 20px;
+    }
+    
+.title23 img{
+    padding: 10px;
+}
+}
 
 
 
