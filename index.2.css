@@ -316,8 +316,9 @@ margin: auto;
 }
 @media (max-width:650px) {
     .title23{
-        padding: 0px;
+        padding: 10px;
         margin-top: 30px;
+        width: 100%;
     }
     .title23 p{
         font-size: 18px;
@@ -334,7 +335,7 @@ margin: auto;
     padding: 10px;
 }
 }
-
+    
 
 
 
