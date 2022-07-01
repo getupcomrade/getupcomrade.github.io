@@ -1,33 +1,71 @@
 *{
     font-family: 'Roboto', sans-serif;
 }
-.nav-item{
-   font-weight: 600;
-   font-size: 1rem;
-   align-items: center; 
-}
+
+
+
 nav {
-background-color: black;
-position: relative; 
+    background-color: black;
+    /* position: relative;  */
+    
+    }
 
-}
-.social-media{
-    font-size: 1.2rem;
-    align-items: center;
-
-}
-.instagram{
-    margin-left: 100px;
-}
+    
 .navbar-brand{
     margin-left: 1.4em;
 }
-nav .nav li a{
+.navbar-brand img{
+    height: 51px;
+}
+.nav-item{
+    font-weight: 600;
+    font-size: 1rem;
+    margin: auto;
+    padding: 7px;
+ }
+
+ nav li a{
     color: white !important;
 }
-nav .nav li a:hover{
+nav li a:hover{
     color: #0a8fc4 !important;
 }
+.social-media{
+    font-size: 1.5rem;
+}
+nav button{
+   
+}
+nav button i{
+    font-size: 30px;
+    color: white;
+}
+
+.instagram{
+    padding-left: 120px;
+}
+@media (max-width:1000px) {
+    
+    .navbar-brand{
+        justify-content: center;
+margin: 0;    }
+    
+.instagram{
+padding-left: 7px;}
+} 
+
+/*
+
+
+nav ul{
+}
+
+*/
+
+
+
+
+
 
 body{
     justify-content: center;
@@ -36,9 +74,6 @@ body{
 section{
     scroll-snap-align: center;
     color: black;
-}
-
-.wrapper{
 }
 .title1{
     position: relative;
@@ -51,11 +86,11 @@ section{
 }
 .title1 h1{
     color:white;
-    font-size: 7vw;
+    font-size: 6vw;
     font-weight: 700;
-    padding-left: 10vw;
+    padding-left: 17vw;
     width: 70%;
-    padding-top: 180px;
+    padding-top: 270px;
     padding-bottom: 35px;
     animation: swipe 1.5s ;
 
@@ -73,7 +108,7 @@ section{
     color: white;
     font-weight: 300;
     font-size: 20px;
-    padding-left: 10vw;
+    padding-left: 17vw;
     width: 65%;
     
     animation: swipe 1.5s;
@@ -109,7 +144,7 @@ border: 5px solid #FFFF00;
     .title1 h1{
         padding-left: 5vw;
         font-size:35px;
-        padding-top: 500px;
+        padding-top: 350px;
     }
     .title1 p{
         padding-left: 5vw;
@@ -293,7 +328,6 @@ margin: auto;
 
 
 .title23{
-    width: 70%;
     text-align: center;
         padding: 60px;
         margin: auto;
@@ -306,11 +340,14 @@ margin: auto;
 .title23 p{
     font-size: 18px;
     font-weight: 300;
-    width: 50%;
+    width: 500px;
     margin: auto;
     padding-bottom: 30px;
 }
-
+.title23 div{
+    width: 70%;
+    margin: auto;
+}
 .title23 img{
     padding: 50px;
 }
@@ -318,7 +355,6 @@ margin: auto;
     .title23{
         padding: 10px;
         margin-top: 30px;
-        width: 100%;
     }
     .title23 p{
         font-size: 18px;
@@ -330,7 +366,9 @@ margin: auto;
         width: 100%;
         padding-bottom: 20px;
     }
-    
+    .title23 div{
+        width: 100%;
+    }
 .title23 img{
     padding: 10px;
 }
