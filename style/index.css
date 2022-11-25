@@ -163,8 +163,8 @@ body {
   # Header
   --------------------------------------------------------------*/
   #header {
-    background: rgba(12, 11, 9, 0.6);
-    border-bottom: 1px solid rgba(12, 11, 9, 0.6);
+    /* background: rgba(12, 11, 9, 0.6);
+    border-bottom: 1px solid rgba(12, 11, 9, 0.6); */
     transition: all 0.5s;
     z-index: 997;
     padding: 15px 0;
@@ -172,8 +172,10 @@ body {
   
   #header.header-scrolled {
     top: 0;
-    background: rgba(0, 0, 0, 0.85);
-    border-bottom: 1px solid #37332a;
+    /* background: rgba(0, 0, 0, 0.85); */
+    backdrop-filter: blur(5px);
+    background: rgba(0, 0, 0, 0.473);
+    /* border-bottom: 1px solid #37332a; */
   }
   
   #header .logo {
@@ -192,7 +194,29 @@ body {
   }
   
   #header .logo img {
-    max-height: 40px;
+    max-height: 45px;
+  }
+
+  #header .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #28251f98;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+  }
+  
+  #header .social-links a:hover {
+    background: #cda45e;
+    color: #fff;
+    text-decoration: none;
+    
   }
   
   /*--------------------------------------------------------------
@@ -221,6 +245,10 @@ body {
       margin: 0 15px 0 0;
       padding: 8px 20px;
     }
+
+    #header .social-links {
+        margin-right: 4px;
+      }
   }
   
   /*--------------------------------------------------------------
