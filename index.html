@@ -4,477 +4,446 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>code21</title>
-    <link rel="stylesheet" href="index.2.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Legends Pub</title>
+
+    <link href="style/images/favicon/logo32.png" rel="icon">
+  <link href="style/images/favicon/logo180.png" rel="apple-touch-icon">
+
+
+    <link rel="stylesheet" href="style/index.css">
+    <link href="style/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/vendor/aos/aos.css" rel="stylesheet">
+    <link href="style/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="style/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="style/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="style/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="style/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
 <script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
 <script src="https://kit.fontawesome.com/c98d165499.js" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> -->
+
 </head>
 <body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+    
+          <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="style/images/legendslogo.png" alt=""></a></h1>
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <!-- <a href="index.html" class="logo me-auto me-lg-0"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+    
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero">Главное</a></li>
+              <li><a class="nav-link scrollto" href="#about">О нас</a></li>
+              <li><a class="nav-link scrollto" href="#menu">Меню</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+          <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">+7 (707) 917 4030</a>
+    
+        </div>
+      </header>
 
 
+      <section id="hero" class="d-flex align-items-center">
+        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1>Добро пожаловать в Legends Pub<span></span></h1>
+              <h2>Самый большой спорт паб в столице</h2>
+    
+              <div class="btns">
+                <a href="#menu" class="btn-menu animated fadeInUp scrollto">Наше Меню</a>
+              </div>
+            </div>
+            <!-- <div class="col-lg-4 d-flex align-items-center justify-content-center position-relative" data-aos="zoom-in" data-aos-delay="200">
+              <a href="https://www.youtube.com/watch?v=GlrxcuEDyF8" class="glightbox play-btn"></a>
+            </div> -->
+    
+          </div>
+        </div>
+      </section>
 
-<!-- 
-    <header>
-        <nav class="navbar  fixed-top">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">
-                <img src="images/logo.png" alt=""  height="52">
-              </a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="nav justify-content-end justify-content-center">
-                <li class="nav-item ">
-                  <a class="nav-link" href="#title2">О нас</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#title21">Список курсов</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Преподаватели</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#title23">Партнеры</a>
-                  </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Контакты</a>
-                  </li>
-                  <li class="nav-item social-media instagram">
-                    <a class="nav-link" href="https://instagram.com/code21kz?igshid=YzAyZWRlMzg="><i class="fa fa-instagram" aria-hidden="true"></i></a>
-                  </li>
-                  <li class="nav-item social-media whatsapp">
-                    <a class="nav-link" href="https://web.whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-                  </li>
-              
+
+      <main id="main">
+      <section id="about" class="about">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row">
+            <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="100">
+              <div class="about-img">
+                <img src="style/images/Колканат 021.jpg" alt="">
+              </div>
+            </div>
+            <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content">
+              <h3>О нас</h3>
+              <p class="fst-italic">
+                ⚽Самый большой спорт паб в столице<br>
+📺Транслируем любой вид спорта<br>
+🍻Премиальный алкоголь и кухня до 04:00<br>
+              </p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section id="menu" class="menu section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Меню</h2>
+            <p>Попробуйте наши блюда</p>
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <li data-filter="*" class="filter-active">Все</li>
+                <li data-filter=".filter-salaty">Салаты</li>
+                <li data-filter=".filter-zakuski">Закуски</li>
+                <li data-filter=".filter-goryachie">Горячие блюда</li>
+                <li data-filter=".filter-pasty">Пасты</li>
+                <li data-filter=".filter-garniry">Гарниры</li>
+                <li data-filter=".filter-supy">Супы</li>
+                <li data-filter=".filter-fastfood">Фаст Фуд</li>
+                <li data-filter=".filter-pizza">Пицца</li>
+                <li data-filter=".filter-kpivu">К пиву</li>
+                <li data-filter=".filter-sets">Сеты на компанию</li>
               </ul>
             </div>
+          </div>
+  
+          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+  
+  
+  
+            <!-- Салаты -->
+            <div class="col-lg-6 menu-item filter-salaty">
+              <img src="style/images/menu/Боул.png" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Боул с угрем и бэби шпинатом</a><span>5.290₸</span>
+              </div>
+              <div class="menu-ingredients">
+                Угорь, бэби шпинат, авокадо, киноа
+              </div>
+            </div>
+ 
+            <div class="col-lg-6 menu-item filter-salaty">
+                <img src="style/images/menu/Пикантный салат.png" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Пикантный салат с креветками.</a><span>3.390₸</span>
+                </div>
+                <div class="menu-ingredients">
+                    Креветки, рукала, томаты черри,сладкий перец
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+              <img src="style/images/menu/стейк салат.png" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Стейк салат с вырезкой</a><span>4.290₸</span>
+              </div>
+              <div class="menu-ingredients">
+                Вырезка, микс салат, авокадо, груша
+              </div>
+            </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">С телятиной и молодым картофелем</a><span>3.790₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+                <img src="style/images/menu/legendary.png" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Legendary фунчеза с мясом</a><span>3.290₸</span>
+                </div>
+              </div>
+
+            <!-- Салаты -->
+
+
+
+
+            <div class="col-lg-6 menu-item filter-zakuski">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Витела Тоннато</a><span>4.500₸</span>
+              </div>
+            </div>
+  
+            <!-- ГОРЯЧИЕ БЛЮДА -->
+            <div class="col-lg-6 menu-item filter-goryachie">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Медальоны в сливочно грибном соусе</a><span>6.490₸</span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Рибай стейк на кости Select</a><span>6.990₸</span>
+                </div>
+              </div>
+<!-- 
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">T bone Select</a><span>6.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Стейк лосось с гороховым пюре</a><span>6.490₸</span>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Щеки с трюфельным соусом и муссом из цветной капусты</a><span>5.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Оссобуко томленый с топинамбуром</a><span>5.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Филе миньон из конины</a><span>6.900₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Цыпленок на гриле с сезонными овощами</a><span>5.190₸</span>
+                </div>
+
+                <div class="col-lg-6 menu-item filter-goryachie">
+                    <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                    <div class="menu-content">
+                      <a href="#">Филе Палтуса</a><span>5.690₸</span>
+                    </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div> -->
+
+     
+            <!-- ГОРЯЧИЕ БЛЮДА -->
+     
+
+            <!-- Пасты -->
+            <div class="col-lg-6 menu-item filter-pasty">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Фарфале с курицей и грибами</a><span>3.190₸</span>
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 menu-item filter-pasty">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Фетучинни с семгой</a><span>3.490₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-pasty">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Спагетти Болоньезе</a><span>3.190₸</span>
+                </div>
+              </div>
+  <!-- Пасты -->
+
+
+  
+  
+            <div class="col-lg-6 menu-item filter-garniry">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Овощи гриль</a><span>3.190₸</span>
+              </div>
+            </div>
+            
+  
+            <div class="col-lg-6 menu-item filter-supy">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Рамен с мраморной говядиной</a><span>2.390₸</span>
+              </div>
               
             </div>
-          </nav>
-    </header> -->
-
-<header>
-  <nav class="navbar navbar-expand-lg fixed-top">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="index.html">
-        <img src="images/logo.png" alt="">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fa fa-bars" aria-hidden="true"></i>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav">
-          <li class="nav-item ">
-            <a class="nav-link" href="#title2">О нас</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#title21">Список курсов</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Преподаватели</a>
-          </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#title23">Партнеры</a>
-            </li>
-          <li class="nav-item">
-              <a class="nav-link" href="#">Контакты</a>
-            </li>
-            <li class="nav-item social-media instagram">
-              <a class="nav-link" href="https://instagram.com/code21kz?igshid=YzAyZWRlMzg="><i class="fa fa-instagram" aria-hidden="true"></i></a>
-            </li>
-            <li class="nav-item social-media whatsapp">
-              <a class="nav-link" href="https://web.whatsapp.com"><i class="fa fa-whatsapp" aria-hidden="true"></i></a>
-            </li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
-
-
-<!-- <section>
-    <div class="title">
-        <img src="https://media.rbcdn.ru/media/news/alex-kotliarskyi-qbpzgqemskg-unsplash_mZj70yK.jpg.895x400_q95_crop_darken_upscale.jpg" alt="" >
-        <h1>Школа программирования Code21</h1>
-        <p>Школа программирования, в которой каждый сможет обрести навыки в IT сфере от лучших специалистов Казахстана.</p>
-    </div>
-</section> -->
-
-
-
-
-<section id="title1">
-    <div class="title1">
-        <h1>Школа программирования Code21</h1>
-        <p>Школа программирования, в которой каждый сможет обрести навыки в IT сфере от лучших специалистов Казахстана.</p>
-        <div class="arrow">
-            <a href="#title2" alt="">
-            <svg class="t-cover__arrow-svg" style="fill:#ffffff;" x="0px" y="0px" width="38.417px" height="18.592px" viewBox="0 0 38.417 18.592"><g><path d="M19.208,18.592c-0.241,0-0.483-0.087-0.673-0.261L0.327,1.74c-0.408-0.372-0.438-1.004-0.066-1.413c0.372-0.409,1.004-0.439,1.413-0.066L19.208,16.24L36.743,0.261c0.411-0.372,1.042-0.342,1.413,0.066c0.372,0.408,0.343,1.041-0.065,1.413L19.881,18.332C19.691,18.505,19.449,18.592,19.208,18.592z"></path></g></svg>
-<!--            <img src="https://www.freeiconspng.com/uploads/white-down-arrow-png-2.png">-->
-        </a>
-        </div>
-    </div>
-</section>
-
-
-
-  <section class="title2" id="title2">
-    <div>
-    <h1>О НАС</h1>
-    <hr class="opacity-100">
-    <p>Школа программирования code21 — подразделение отечественной IT-компании 21Tech. Программы обучения рассчитаны как для новичков, так и для продвинутых IT-специалистов. Главное преимущество школы code21 в том, что вовремя обучения у учеников есть возможность закрепить знания на реальных IT-проектах и трудоустроиться в лучшие компании Казахстана, так как у школы имеются договора с компаниями по дальнейшему трудоустройству. Преподаватели школы code21 имеют опыт работы в передовых американских, европейских и казахстанских компаниях. Обучение проходит в офлайн формате в современном офисе на территории EXPO. Для закрепления знаний используется собственная LMS-платформа.
-    </p>
-  </div>
-  <button class="btn" onclick="window.location.href='#title21'">Подробнее о Программах обучения</button>
-  </section>
-
-
-
-
-<section class="title21" id="title21">
-  <div>
-    <h1>
-      ПРОГРАММЫ ОБУЧЕНИЯ
-    </h1>
-    <div class="row justify-content-center">
-      <div class="feature-box col-lg-3">
-      <img src="images/monitor.svg" alt="">
-      <h3>Front -End разработка
-        JavaScript React ES6+</h3>
-      <p>Студенты будут решать проблемы, используя такие инструменты, как HTML, CSS и
-        JavaScript:<br>
-        -Создавать, отлаживать и поддерживать профессиональные веб-сайты;<br>
-        -Эффективно взаимодействовать, сотрудничать и общаться с преподавателем
-        и сокурсниками</p>
-      </div>
-      <div class="feature-box col-lg-3">
-       <img src="images/programm.svg" alt="">
-       <h3>Back-End разработка Java and Spring Boot</h3>
-      <p>-Разработка серверных и веб-приложений с использованием инструментов и фреймворков разработки, таких как SpringMVC/Spring Boot и Hibernate:<br>
-        - Создание и поддержание динамических веб-приложений с использованием технологий на базе Java.<br>
-        - Управлять и представлять информацию для поддержки принятия важных для бизнеса решений.<br>
-        - Эффективно взаимодействовать, сотрудничать и общаться с преподавателем и студентами.</p>
-      </div>
-      <div class="feature-box col-lg-3">
-       <img src="images/servers.svg" alt="">
-       <h3>Data Аналитик<br>Python</h3>
-      <p>- Ознакомление с данными и способами их сбора, манипулирования, очистки;<br>
-        - Изучение основных библиотек Python для анализа данных: NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn;<br>
-        - Изучение различных статистических графиков и их использование в EDA.</p>
-      </div>
-
-       </div>
-  </div>
-</section>
-
-
-
-<section class="title23" id="title23">
-  <h1>НАШИ ПАРТНЕРЫ</h1>
-  <p>Если вы заинтересованы в том, чтобы стать партнером или спонсором, пожалуйста, не стесняйтесь обращаться к нам.</p>
-  <div>
-  <img src="images/digital_energy.webp" alt="">
-  <img src="images/astanahub_logo.webp" alt="">
-  <img src="images/ZHDK.webp" alt="">
-  <img src="images/Digitan_logo.webp" alt="">
-  <img src="images/NNQ.webp" alt="">
-  <img src="images/Baiterek.webp" alt="">
-  <img src="images/AIFC.webp" alt="">
-</div>
-
-</section>
-
-
-
-<section class="title22"  id="title22">
-<div class="container firstcontainer"><h2>Мы создали уроки, чтобы помочь вам увереннее разговаривать на английском языке</h2>
-    <p class="title22description">Это отличный способ расширить ваш словарный запас.</p></div>
-    <div class="container secondcontainer">
-        <div class="row">
-       <div class="feature-box col-lg-4">
-       <img src="images/timel.webp" alt="">
-       <h3>Время</h3>
-       <p>Выбирайте любое удобное время — мы подстроимся под ваш график.</p>
-       </div>
-       <div class="feature-box col-lg-4">
-        <img src="images/placel.webp" alt="">
-        <h3>Место</h3>
-       <p>Учитесь откуда угодно – дома, в офисе, в кафе.</p>
-       </div>
-       <div class="feature-box col-lg-4">
-        <img src="images/effiencyl.webp" alt="">
-        <h3>Эффективность</h3>
-       <p>Наша задача – сделать так, чтобы вы сразу начали говорить.</p>
-       </div>
-
-        </div>
-
-
-        </section>
-
-
-<section class="section3">
-          <div class="container title3">
-              <div class="row">
-             <div class="feature-box col-lg-6">
-              <div class="title3img">
-                <img src="images/macbook.png" alt="">
+  
+            <div class="col-lg-6 menu-item filter-fastfood">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Тако с курицей</a><span>3.290₸</span>
               </div>
-             </div>
-             <div class="feature-box col-lg-6">
-              <h2>Как мы учим языку?</h2>
-            <p>Наш подход в работе – доставлять клиентам качество и ценность. Все наши преподаватели имеют более, чем 5-летний опыт обучения языку. Мы любим свое дело!</p>
-            <button class="btn" type="button">Узнать больше об уроках</button>
-             </div>
-              </div></div>
-            </section>
-
-
-<!--
- <section class="title3">
-
-
-    <div class="row align-items-md-stretch">
-        <div class="col-md-6">
-          <div class="title3img">
-            <img src="images/macbook.png" alt="">
-          </div>
-        </div>
-        <div class="col-md-6">
-          <div class="title3text">
-            <h2>Как мы учим языку?</h2>
-            <p>Наш подход в работе – доставлять клиентам качество и ценность. Все наши преподаватели имеют более, чем 5-летний опыт обучения языку. Мы любим свое дело!</p>
-            <button class="btn" type="button">Узнать больше об уроках</button>
-          </div>
-        </div>
-      </div>
-</div>
-</section>
--->
-
-
-
-
-
-
-<section class="title4">
-
-        <h2>Начать учить английский просто</h2>
-        <div class="container fourthcontainer">
-            <div class="row">
-           <div class="feature-box col-lg-4">
-           <img src="images/111.webp" alt="">
-           <h3>Выбор преподавателя</h3>
-           <p>Все наши преподаватели — дипломированные специалисты с многолетним опытом обучения.</p>
-           </div>
-           <div class="feature-box col-lg-4">
-            <img src="images/222.webp" alt="">
-            <h3>Первый урок бесплатно</h3>
-           <p>Получите личную консультацию от преподавателя в течение 30 минут совершенно бесплатно.</p>
-           </div>
-           <div class="feature-box col-lg-4">
-            <img src="images/333.webp" alt="">
-            <h3>Фиксированные цены</h3>
-           <p>Вы знаете, за что платите. У нас фиксированные цены на все сервисы.</p>
-           </div>
-
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-pizza">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Маргарита</a><span>2.290₸</span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-kpivu">
+              <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+              <div class="menu-content">
+                <a href="#">Колбаски бараньи</a><span>4.090₸</span>
+              </div>
             </div>
 
-           <button type="button" class="btn btn-outline-dark">Попробовать бесплатно</button>
-           </div>
-</section>
-
-<section class="title5">
-    <div class="container fifthcontainer">
-        <div class="row">
-       <div class="feature-box col-lg-4">
-         <h3>19</h3>
-        <p>Преподавателей, которые знают, как помочь вам заговорить по-английски.</p>
-       </div>
-       <div class="feature-box col-lg-4">
-       <h3>1598</h3>
-       <p>Студентов во всем мире уже присоединились к нашей программе.</p>
-       </div>
-       <div class="feature-box col-lg-4">
-        <h3>9</h3>
-       <p>Средний показатель IELTS у наших студентов.</p>
-       </div>
-
-        </div>
-       </div>
-
-
-</section>
-
-
-
-<section class="title6">
-  <h1>Что говорят студенты </h1>
-  <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="10000">
-  <div class="container fourthcontainer">
-    <img src="images/avatar.png" alt="">
-      <p>Пришла в эту школу, чтобы за разумную цену подготовиться к IELTS. Несколько месяцев меня упорно готовили к экзаменам, и все получилось.</p>
-    <h2>Мила Каспарова</h2>
-    <h3>Дизайнер</h3>
-     </div>
-        <div class="carousel-caption d-none d-md-block">
-         
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="2000">
-  <div class="container fourthcontainer">
-    <img src="images/avatar.png" alt="">
-      <p>Очень качественный визуальный материал к занятиям — многие школы недооценивают его важность. Графики и презентации делают урок нагляднее и помогают лучше усвоить материал.
-      </p>
-      <h2>Иван Хаверов</h2>
-    <h3>Предприниматель</h3>
-     </div>
-        <div class="carousel-caption d-none d-md-block">
-        </div>
-      </div>
-      <div class="carousel-item">
-  <div class="container fourthcontainer">
-    <img src="images/avatar.png" alt="">
-      <p>После первых трех занятий я уже почувствовал на практике, как мой словарный запас увеличился. Это очень классный прогресс!
-      </p>
-      <h2>Петр Локтев</h2>
-      <h3>Студент</h3>
-     </div>
-        <div class="carousel-caption d-none d-md-block">
-          
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-</section>
-
-
-
-<section class="title7">
-
-  <h2>Изучайте английский с персональным преподавателем</h2>
-  <div class="container fourthcontainer">
-      <p>Начните прямо сейчас</p>
-
-     <button type="button" class="btn btn-outline-dark">Заказать бесплатный урок</button>
-     </div>
-</section>
-<section class="map-container">
+            <div class="col-lg-6 menu-item filter-sets">
+                <img src="style/images/menu/example.jpg" class="menu-img" alt="">
+                <div class="menu-content">
+                  <a href="#">Бразильский мясной сет</a><span>21.990₸</span>
+                </div>
+                <div class="menu-ingredients">
+                    Тибон, рибай, отбивная говядина, цыпленок табака, 
+                    куринное филе, картофельные дольки, соус, микс зелени
+                </div>
+              </div>
   
-        <div id="map" style="margin-left: 20px;margin-right: 20px; border-radius:30px; height: 400px;  ">
           </div>
-          <!-- <input style= "margin-top:7px; width: 300px;" class="btn btn-outline-dark" type="button" id="minWidth" value="Мы находимся здесь!"> -->
+  
+        </div>
       </section>
+
+
+
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Контакты</h2>
+            <p>Мы находимся</p>
+          </div>
+        </div>
+  
+        <!-- <div data-aos="fade-up">
+          <iframe style="border:0; width: 100%; height: 350px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+        </div> -->
+
+        <div data-aos="fade-up" id="map" style="border:0; width: 100%; height: 350px; "></div>
+  
+        <div class="container" data-aos="fade-up">
+  
+          <div class="row mt-5">
+  
+            <div class="col-lg-4">
+              <div class="info">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Улица:</h4>
+                  <p>проспект Мангилик ел 17</p>
+                </div>
+  
+                <div class="open-hours">
+                  <i class="bi bi-clock"></i>
+                  <h4>Рабочее время:</h4>
+                  <p>
+                    Ежедневно:<br>
+                    17:00 - 04:00
+                  </p>
+                </div>
+  
+                <!-- <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div> -->
+  
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Номер:</h4>
+                  <p>+7 (707) 917 4030</p>
+                </div>
+  
+              </div>
+  
+            </div>
+  
+  
+          </div>
+  
+        </div>
+      </section>
+
+</main>
+<footer>
+    
+</footer>
+
+
+
+<script src="style/vendor/aos/aos.js"></script>
+  <script src="style/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="style/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="style/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="style/vendor/php-email-form/validate.js"></script>
+  <script src="style/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="style/js/main.js"></script>
+
+  
 <script>
-  DG.then(function() {
-     
-      map = DG.map('map', {
-          center: [	51.088234, 71.414658],
-          zoom: 17
-      });
-
-                DG.marker([	51.088234, 71.414658]).addTo(map).bindPopup('Мы находимся здесь!');
-                // var latLng = DG.latLng([	51.088234, 71.414658]),
-                //     map;
-                // document.getElementById('minWidth').onclick = function () {
-                //     DG.popup({
-                //         maxWidth: 350,
-                //         minWidth: 320
-                //     })
-                //     .setLatLng(latLng)
-                //     .setContent('Мы находимся здесь!')
-                //     .openOn(map);
-                // };
-  });
+    DG.then(function() {
+       
+        map = DG.map('map', {
+            center: [	51.116580, 71.433649],
+            zoom: 15.5
+        });
+  
+                  DG.marker([	51.116580, 71.433649]).addTo(map).bindPopup('Мы находимся здесь!');
+                  // var latLng = DG.latLng([	51.088234, 71.414658]),
+                  //     map;
+                  // document.getElementById('minWidth').onclick = function () {
+                  //     DG.popup({
+                  //         maxWidth: 350,
+                  //         minWidth: 320
+                  //     })
+                  //     .setLatLng(latLng)
+                  //     .setContent('Мы находимся здесь!')
+                  //     .openOn(map);
+                  // };
+    });
 </script>
-<script>
-// const navLinks = document.querySelectorAll('.nav-item')
-// const menuToggle = document.getElementById('navbarSupportedContent')
-// const bsCollapse = new bootstrap.Collapse(menuToggle)
-// navLinks.forEach((l) => {
-//     l.addEventListener('click', () => { bsCollapse.toggle() })
-// })
-
-const navLinks = document.querySelectorAll('.nav-item')
-const menuToggle = document.getElementById('navbarSupportedContent')
-const bsCollapse = new bootstrap.Collapse(menuToggle, {toggle:false})
-navLinks.forEach((l) => {
-    l.addEventListener('click', () => { bsCollapse.toggle() })
-})
-
-// $('.navbar-nav>li>a').on('click', function(){
-//     $('.navbar-collapse').collapse('hide');
-// });
-
-// $(document).ready(function () {
-//     $(document).click(function (event) {
-//         var clickover = $(event.target);
-//         var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
-//         if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-//             $("button.navbar-toggle").click();
-//         }
-//     });
-// });
-
-// $(document).click(function (event) {
-//     var clickover = $(event.target);
-//     var $navbar = $(".navbar-collapse");               
-//     var _opened = $navbar.hasClass("in");
-//     if (_opened === true && !clickover.hasClass("navbar-toggle")) {      
-//         $navbar.collapse('hide');
-//     }
-// });
-
-// $(document).on('click touchstart', function (e) {
-// if ($(e.target).closest(".navbar-collapse").length === 0 && $(e.target).closest('[data-target=".navbar-collapse"]').length === 0) {
-//     $(".navbar-toggle").collapse('hide');
-// }
-// });
-
-// $(document).ready(function () {
-//         function CloseNav() {
-//             $(".navbar-collapse").stop().css({ 'height': '1px' }).removeClass('in').addClass("collapse");
-//             $(".navbar-toggle").stop().removeClass('collapsed');
-//         }
-
-//         $('html').click(function (event) {
-//             var clickover = $(event.target);
-//             var _opened = $(".navbar-collapse").hasClass("navbar-collapse in");
-//             if (_opened === true && !clickover.hasClass("navbar-toggle")) {
-//                 CloseNav();
-//             }
-
-//         });
-//     });
-
-
-
-
-</script>
-
-
 </body>
 </html>

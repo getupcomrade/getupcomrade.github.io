@@ -1,1 +1,0 @@
-# getupcomrade.github.io
