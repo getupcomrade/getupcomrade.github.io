@@ -340,6 +340,7 @@ body {
   }
   
   @media (max-width: 991px) {
+
     .mobile-nav-toggle {
       display: block;
     }
@@ -349,7 +350,7 @@ body {
   }
   
   .navbar-mobile {
-    position: fixed;
+    position: fixed!important;
     overflow: hidden;
     top: 0;
     right: 0;
@@ -931,7 +932,7 @@ body {
     position: absolute;
     left: 20px;
     right: 0;
-    top: -4px;
+    top: 1.5px;
     z-index: 1;
     color: #bab3a6;
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
