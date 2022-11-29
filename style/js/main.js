@@ -174,7 +174,9 @@
     if (menuContainer) {
       let menuIsotope = new Isotope(menuContainer, {
         itemSelector: '.menu-item',
-        layoutMode: 'fitRows'
+        layoutMode: 'fitRows',
+        filter: '.filter-salaty'
+
       });
 
       let menuFilters = select('#menu-flters li', true);
@@ -197,6 +199,36 @@
 
   });
 
+  // barmenu
+  window.addEventListener('load', () => {
+    let barmenuContainer = select('.barmenu-container');
+    if (barmenuContainer) {
+      let barmenuIsotope = new Isotope(barmenuContainer, {
+        itemSelector: '.barmenu-item',
+        layoutMode: 'fitRows',
+        filter: '.filter-viski'
+
+      });
+
+      let barmenuFilters = select('#barmenu-flters li', true);
+
+      on('click', '#barmenu-flters li', function(e) {
+        e.preventDefault();
+        barmenuFilters.forEach(function(el) {
+          el.classList.remove('filter-active');
+        });
+        this.classList.add('filter-active');
+
+        barmenuIsotope.arrange({
+          filter: this.getAttribute('data-filter')
+        });
+        barmenuIsotope.on('arrangeComplete', function() {
+          AOS.refresh()
+        });
+      }, true);
+    }
+
+  });
   /**
    * Initiate glightbox 
    */

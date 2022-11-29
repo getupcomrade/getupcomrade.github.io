@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Legends Pub</title>
+
+    <link href="style/images/favicon/logo32.png" rel="icon">
+  <link href="style/images/favicon/logo180.png" rel="apple-touch-icon">
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="stylesheet" href="style/index.css">
+    <link href="style/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style/vendor/aos/aos.css" rel="stylesheet">
+    <link href="style/vendor/animate.css/animate.min.css" rel="stylesheet">
+    <link href="style/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="style/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="style/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="style/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"> -->
+<script src="https://maps.api.2gis.ru/2.0/loader.js"></script>
+<!-- <script src="https://kit.fontawesome.com/c98d165499.js" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script> -->
+<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script> -->
+
+</head>
+<body>
+    <header id="header" class="fixed-top d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-lg-between">
+    
+          <!-- <h1 class="logo me-auto me-lg-0"><a href="index.html"><img src="style/images/legendslogo.png" alt=""></a></h1> -->
+          <!-- Uncomment below if you prefer to use an image logo -->
+          <a href="index.html" class="logo me-auto me-lg-0"><img src="style/images/legendslogo.png" alt="" class="img-fluid"></a>
+    
+          <nav id="navbar" class="navbar order-last order-lg-0">
+            <ul>
+              <li><a class="nav-link scrollto active" href="#hero2">Главное</a></li>
+              <li><a class="nav-link scrollto" href="index.html#about">О нас</a></li>
+              <li><a class="nav-link scrollto" href="#menu">Меню</a></li>
+              <li><a class="nav-link scrollto" href="#contact">Контакты</a></li>
+            </ul>
+            <i class="bi bi-list mobile-nav-toggle"></i>
+          </nav>
+          <!-- <a href="#book-a-table" class="book-a-table-btn scrollto d-none d-lg-flex">+7 (707) 917 4030</a> -->
+            <div class="social-links">
+              <a href="https://www.facebook.com/profile.php?id=100085697120753" class="facebook"><i class="bx bxl-facebook"></i></a>
+              <a href="https://www.instagram.com/legends_astana/" class="instagram"><i class="bx bxl-instagram"></i></a>
+              <a href="http://wa.me/7079174030" class="whatsapp"><i class="bx bxl-whatsapp"></i></a>
+          </div>
+        </div>
+      </header>
+
+
+      <section id="hero2" class="d-flex align-items-center">
+        <div class="container position-relative text-center text-lg-start" data-aos="zoom-in" data-aos-delay="100">
+          <div class="row">
+            <div class="col-lg-8">
+              <h1>Меню Legends Pub<span></span></h1>
+              <h2>Премиальный алкоголь и кухня</h2>
+    
+              <div class="btns">
+                <!-- <a href="#menu" class="btn-menu animated fadeInUp scrollto">Меню</a>
+                <a href="index.html" class="btn-book animated fadeInUp scrollto">главная страница</a> -->
+                <a href="index.html" class="btn-menu animated fadeInUp scrollto">главная страница</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+      <main id="main">
+
+    <section id="menu" class="menu section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Меню</h2>
+            <p>Попробуйте наши блюда</p>
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="menu-flters">
+                <!-- <li data-filter="*">Все</li> -->
+                <li  class="filter-active" data-filter=".filter-salaty">Салаты</li>
+                <li data-filter=".filter-zakuski">Закуски</li>
+                <li data-filter=".filter-goryachie">Горячие блюда</li>
+                <li data-filter=".filter-pasty">Пасты</li>
+                <li data-filter=".filter-garniry">Гарниры</li>
+                <li data-filter=".filter-supy">Супы</li>
+                <li data-filter=".filter-fastfood">Фаст Фуд</li>
+                <li data-filter=".filter-pizza">Пицца</li>
+                <li data-filter=".filter-kpivu">К пиву</li>
+                <li data-filter=".filter-sets">Сеты на компанию</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row menu-container" data-aos="fade-up" data-aos-delay="200">
+  
+  
+  
+            <!-- Салаты -->
+            <div class="col-lg-6 menu-item filter-salaty">
+              <div class="menu-content">
+                <a href="#">Боул с угрем и бэби шпинатом</a><span>5.290₸</span>
+              </div>
+              <div class="menu-ingredients">
+                Угорь, бэби шпинат, авокадо, киноа
+              </div>
+            </div>
+ 
+            <div class="col-lg-6 menu-item filter-salaty">
+                <div class="menu-content">
+                  <a href="#">Пикантный салат с креветками.</a><span>3.390₸</span>
+                </div>
+                <div class="menu-ingredients">
+                    Креветки, рукала, томаты черри,сладкий перец
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+              <div class="menu-content">
+                <a href="#">Стейк салат с вырезкой</a><span>4.290₸</span>
+              </div>
+              <div class="menu-ingredients">
+                Вырезка, микс салат, авокадо, груша
+              </div>
+            </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+                <div class="menu-content">
+                  <a href="#">С телятиной и молодым картофелем</a><span>3.790₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-salaty">
+                <div class="menu-content">
+                  <a href="#">Legendary фунчеза с мясом</a><span>3.290₸</span>
+                </div>
+              </div>
+
+            <!-- Салаты -->
+
+
+
+
+            <!-- Закуски -->
+            <div class="col-lg-6 menu-item filter-zakuski">
+              <div class="menu-content">
+                <a href="#">Витела Тоннато</a><span>4.500₸</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Мидии под сыром</a><span>3.490₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Сырное плато</a><span>6.190₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Антипасти</a><span>4.800₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Брускетты с семгой</a><span>2.490₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Брускетты с ростбифом</a><span>2.290₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Соленья из бочек</a><span>3.690₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Русская закуска</a><span>3.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Овощное ассорти с сыром фета</a><span>3.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Охотничьи Колбаски к пиву</a><span>3.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-zakuski">
+                <div class="menu-content">
+                  <a href="#">Крылья Терияки</a><span>3.990₸</span>
+                </div>
+              </div>
+
+              
+
+            <!-- Закуски -->
+  
+            <!-- ГОРЯЧИЕ БЛЮДА -->
+            <div class="col-lg-6 menu-item filter-goryachie">
+              <div class="menu-content">
+                <a href="#">Медальоны в сливочно грибном соусе</a><span>6.490₸</span>
+              </div>
+            </div>
+            <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">Рибай стейк на кости Select</a><span>6.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">T bone Select</a><span>6.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">Стейк лосось с гороховым пюре</a><span>6.490₸</span>
+                </div>
+              </div>
+              
+              <div class="col-lg-6 menu-item filter-goryachie">
+             <div class="menu-content">
+                  <a href="#">Щеки с трюфельным соусом и муссом из цветной капусты</a><span>5.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">Оссобуко томленый с топинамбуром</a><span>5.990₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">Филе миньон из конины</a><span>6.900₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#">Цыпленок на гриле с сезонными овощами</a><span>5.190₸</span>
+                </div>
+            </div>
+
+                <div class="col-lg-6 menu-item filter-goryachie">
+                    <div class="menu-content">
+                      <a href="#">Филе Палтуса</a><span>5.690₸</span>
+                    </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-goryachie">
+                <div class="menu-content">
+                  <a href="#"></a><span>3.190₸</span>
+                </div>
+              </div>
+
+     
+            <!-- ГОРЯЧИЕ БЛЮДА -->
+     
+
+            <!-- Пасты -->
+            <div class="col-lg-6 menu-item filter-pasty">
+              <div class="menu-content">
+                <a href="#">Фарфале с курицей и грибами</a><span>3.190₸</span>
+              </div>
+            </div>
+
+
+            <div class="col-lg-6 menu-item filter-pasty">
+                <div class="menu-content">
+                  <a href="#">Фетучинни с семгой</a><span>3.490₸</span>
+                </div>
+              </div>
+
+              <div class="col-lg-6 menu-item filter-pasty">
+                <div class="menu-content">
+                  <a href="#">Спагетти Болоньезе</a><span>3.190₸</span>
+                </div>
+              </div>
+  <!-- Пасты -->
+
+
+  
+  
+
+              <!-- Гарниры -->
+            <div class="col-lg-6 menu-item filter-garniry">
+              <div class="menu-content">
+                <a href="#">Овощи гриль</a><span>1.890₸</span>
+              </div>
+            </div> 
+            <div class="col-lg-6 menu-item filter-garniry">
+                <div class="menu-content">
+                  <a href="#">Рис отварной</a><span>890₸</span>
+                </div>
+              </div> 
+              <div class="col-lg-6 menu-item filter-garniry">
+                <div class="menu-content">
+                  <a href="#">Картофель Yam</a><span>1.190₸</span>
+                </div>
+              </div> 
+              <div class="col-lg-6 menu-item filter-garniry">
+                <div class="menu-content">
+                  <a href="#">Картофель фри</a><span>890₸</span>
+                </div>
+              </div> 
+              <div class="col-lg-6 menu-item filter-garniry">
+                <div class="menu-content">
+                  <a href="#">Картофельные дольки</a><span>890₸</span>
+                </div>
+              </div> 
+               <!-- Гарниры -->
+
+            
+  
+               <!-- Супы -->
+            <div class="col-lg-6 menu-item filter-supy">
+              <div class="menu-content">
+                <a href="#">Рамен с мраморной говядиной</a><span>2.390₸</span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 menu-item filter-supy">
+                <div class="menu-content">
+                  <a href="#">Пикантный Том Ям</a><span>3.290₸</span>
+                </div>
+                
+              </div>
+            <!-- Супы -->
+
+
+              <!-- Фастфуд -->
+            <div class="col-lg-6 menu-item filter-fastfood">
+              <div class="menu-content">
+                <a href="#">Тако с курицей</a><span>3.290₸</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Тако с говядиной</a><span>3.590₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Бургер Шеф</a><span>3.790₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Бургер Гриль с говядиной</a><span>3.790₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Бургер LEGENDS</a><span>3.790₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Чиз Бургер</a><span>3.790₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Крафт Бургер</a><span>3.790₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Хот-дог Chicago</a><span>3.190₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Хот-дог New York</a><span>3.190₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Клаб сэндвич с курицей</a><span>2.590₸</span>
+                </div>
+              </div>
+  
+              <div class="col-lg-6 menu-item filter-fastfood">
+                <div class="menu-content">
+                  <a href="#">Клаб сэндвич с семгой</a><span>2.790₸</span>
+                </div>
+              </div>
+  
+                                
+            <!-- Фастфуд -->
+  
+            <div class="col-lg-6 menu-item filter-pizza">
+              <div class="menu-content">
+                <a href="#">Маргарита</a><span>2.290₸</span>
+              </div>
+            </div>
+  
+            <div class="col-lg-6 menu-item filter-kpivu">
+              <div class="menu-content">
+                <a href="#">Колбаски бараньи</a><span>4.090₸</span>
+              </div>
+            </div>
+
+            <div class="col-lg-6 menu-item filter-sets">
+                <div class="menu-content">
+                  <a href="#">Бразильский мясной сет</a><span>21.990₸</span>
+                </div>
+                <div class="menu-ingredients">
+                    Тибон, рибай, отбивная говядина, цыпленок табака, 
+                    куринное филе, картофельные дольки, соус, микс зелени
+                </div>
+              </div>
+  
+          </div>
+  
+        </div>
+      </section>
+
+
+
+      <section id="barmenu" class="barmenu section-bg">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Барное Меню</h2>
+            <!-- <p>Попробуйте наши блюда</p> -->
+          </div>
+  
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="barmenu-flters">
+                <!-- <li data-filter="*">Все</li> -->
+                <li  class="filter-active" data-filter=".filter-viski">Виски</li>
+                <li data-filter=".filter-tekila">Текила</li>
+                <li data-filter=".filter-goryachie">Джин</li>
+                <li data-filter=".filter-pasty">Водка</li>
+                <li data-filter=".filter-garniry">Пиво Разливное</li>
+                <li data-filter=".filter-supy">Пиво бутылочное</li>
+                <li data-filter=".filter-fastfood">Фаст Фуд</li>
+                <li data-filter=".filter-pizza">Пицца</li>
+                <li data-filter=".filter-kpivu">К пиву</li>
+                <li data-filter=".filter-sets">Сеты на компанию</li>
+              </ul>
+            </div>
+          </div>
+  
+          <div class="row barmenu-container" data-aos="fade-up" data-aos-delay="200">
+  
+  
+  
+            <!-- Салаты -->
+            <div class="col-lg-6 barmenu-item filter-viski">
+              <div class="barmenu-content">
+                <a href="#">Боул с угрем и бэби шпинатом</a><span>5.290₸</span>
+              </div>
+              
+            </div>
+
+            <div class="col-lg-6 barmenu-item filter-tekila">
+                <div class="barmenu-content">
+                  <a href="#">Боул </a><span>5.290₸</span>
+                </div>
+                
+              </div>
+ 
+            
+  
+          </div>
+  
+        </div>
+      </section>
+
+
+
+
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+  
+          <div class="section-title">
+            <h2>Контакты</h2>
+            <p>Мы находимся</p>
+          </div>
+        </div>
+
+        <div data-aos="fade-up" id="map" style="border:0; width: 100%; height: 350px; "></div>
+  
+        <!-- <div class="container" data-aos="fade-up">
+  
+          <div class="row mt-5">
+            <div class="info">
+            <div class="col-lg-4">
+                <div class="address">
+                  <i class="bi bi-geo-alt"></i>
+                  <h4>Улица:</h4>
+                  <p>проспект Мангилик ел 17</p>
+                </div>
+            </div> 
+
+                <div class="col-lg-4">
+                <div class="open-hours">
+                  <i class="bi bi-clock"></i>
+                  <h4>Рабочее время:</h4>
+                  <p>
+                    Ежедневно:<br>
+                    17:00 - 04:00
+                  </p>
+                </div>
+            </div> 
+  
+                <div class="email">
+                  <i class="bi bi-envelope"></i>
+                  <h4>Email:</h4>
+                  <p>info@example.com</p>
+                </div>
+  
+                <div class="col-lg-4">
+                <div class="phone">
+                  <i class="bi bi-phone"></i>
+                  <h4>Номер:</h4>
+                  <p>+7 (707) 917 4030</p>
+                </div>
+            </div>
+            </div>              
+          </div>
+  
+        </div> -->
+      </section>
+
+</main>
+<footer class="footer_section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 footer-col">
+          <div class="footer_contact">
+            <h4>
+            Свяжитесь с нами
+            </h4>
+            <div class="contact_link_box">
+              <a href="https://go.2gis.com/92jj1">
+                <i class="bi bi-geo-alt"></i>
+                <span>
+                    пр-т. Мангилик Ел. 17
+                </span>
+              </a>
+              <a href="tel:87079174030">
+                <i class="bi bi-phone"></i>
+                <span>
+                    +7 (707) 917 4030
+                </span>
+              </a>
+              <!-- <a href="">
+                <i class="bi bi-envelope" aria-hidden="true"></i>
+                <span>
+                  xxxxxxxxx@gmail.com
+                </span>
+              </a> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <div class="footer_detail">
+            <a href="" class="footer-logo">
+              Legends Pub
+            </a>
+            <p>
+                Дорогой гость! Благодарим вас за выбор нашего заведения, если у вас есть жалобы или пожелания вы всегда можете написать по номеру:<br>+7 (775) 630 0900 Дария
+              </p>
+            <div class="footer_social">
+              <a href="https://www.facebook.com/profile.php?id=100085697120753">
+                <i class="bx bxl-facebook"></i>
+              </a>
+              <a href="https://www.instagram.com/legends_astana/">
+                <i class="bi bi-instagram" aria-hidden="true"></i>
+              </a>
+              <a href="http://wa.me/7079174030">
+                <i class="bi bi-whatsapp" aria-hidden="true"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 footer-col">
+          <h4>
+            Рабочее время:
+          </h4>
+          <p>
+            Ежедневно
+          </p>
+          <p>
+            17:00 - 04:00
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+
+<script src="style/vendor/aos/aos.js"></script>
+  <script src="style/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="style/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="style/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="style/vendor/php-email-form/validate.js"></script>
+  <script src="style/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <script src="style/js/main.js"></script>
+
+  
+<script>
+    DG.then(function() {
+       
+        map = DG.map('map', {
+            center: [	51.116580, 71.433649],
+            zoom: 15.5
+        });
+  
+                  DG.marker([	51.116580, 71.433649]).addTo(map).bindPopup('Мы находимся здесь!');
+                  // var latLng = DG.latLng([	51.088234, 71.414658]),
+                  //     map;
+                  // document.getElementById('minWidth').onclick = function () {
+                  //     DG.popup({
+                  //         maxWidth: 350,
+                  //         minWidth: 320
+                  //     })
+                  //     .setLatLng(latLng)
+                  //     .setContent('Мы находимся здесь!')
+                  //     .openOn(map);
+                  // };
+    });
+</script>
+</body>
+</html>
